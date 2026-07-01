@@ -1,0 +1,17 @@
+# SciTranslator Pipeline Configuration
+
+pipeline:
+  input_pdf: "samples/test_paper_de.pdf"
+  output_pdf: "output/test_paper_de_translated.pdf"
+  target_language: "English"
+
+# Advanced (Optional)
+model:
+  vlm_name: "gemini-3.1-flash-lite-preview"
+  translation_name: "gemini-3.1-flash-lite-preview"
+
+formatting:
+  dpi: 300
+  papersize: "a4"
+  margin: "2cm"
+  fontsize: "11pt"
