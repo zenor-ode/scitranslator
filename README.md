@@ -57,7 +57,7 @@ Ensure you have the following installed on your system:
 1.  Clone the repository:
     ```bash
     git clone https://github.com/zenor-ode/scitranslator.git
-    cd transcip
+    cd scitranslator
     ```
 2.  Install dependencies:
     ```bash
